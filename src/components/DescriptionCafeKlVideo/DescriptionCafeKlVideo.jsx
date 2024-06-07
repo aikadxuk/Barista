@@ -16,7 +16,7 @@ function DescriptionCafeKlVideo() {
   return (
     <DoubleContainer>
       <VideoContainer>
-        <Video /*src={VideoSrc}*/></Video>
+        <Video src={VideoSrc} autoPlay></Video>
         <VideoTextContainer>
           <VideoText>We Started Since 2009. Best Cafe in Klang.</VideoText>
         </VideoTextContainer>
